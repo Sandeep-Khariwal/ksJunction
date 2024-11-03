@@ -26,7 +26,7 @@ const Course = () => {
           />
         </div>
       </motion.div>
-      <div className="w-full flex justify-between items-center flex-wrap flex-col lg:flex-row mt-10 ">
+      <div className="w-full flex justify-between items-center flex-wrap mt-10">
       {course &&
           (seeMore ? course : course.slice(0, 3)).map((c:CourseType, index) => (
             <Card key={index} image={c.image} tittle={c.tittle} desc={c.desc} />
