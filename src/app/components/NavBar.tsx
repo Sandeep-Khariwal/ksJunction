@@ -15,7 +15,7 @@ const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <>
-      <div className="hidden lg:block w-[80%]">
+      <div className="hidden text-black lg:block w-[80%]">
         <div className="w-full m-auto p-6 flex justify-between items-center ">
           <div className="w-[20%] ">
             <Image
@@ -60,7 +60,7 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-      <div className="lg:hidden w-full">
+      <div className="lg:hidden w-full text-black">
         <div className="w-full py-4 px-8 flex justify-between items-center  ">
           <Image
             src="/logo.png"
@@ -135,10 +135,11 @@ const NavBar = () => {
               </a>
 
               <div className="w-[80%] flex justify-between items-center my-auto ">
-                <FaInstagram style={{ fontSize: "2rem" }} />
-                <FaLinkedinIn style={{ fontSize: "2rem" }} />
-                <FaFacebookF style={{ fontSize: "2rem" }} />
-                <FaYoutube style={{ fontSize: "2rem" }} />
+                <Link href={"https://www.instagram.com/sandeep_khariwal/"} ><FaInstagram style={{ fontSize: "2rem" }} /></Link>
+                <Link href={"https://www.linkedin.com/in/sandeep-khariwal-95b65522b/"} ><FaLinkedinIn style={{ fontSize: "2rem" }} /></Link>
+                <Link href={"https://www.facebook.com/sandeep.kharival.3"} ><FaFacebookF style={{ fontSize: "2rem" }} /></Link>
+                <Link href={"https://www.youtube.com/@sandeep_khariwal8137"} >   <FaYoutube style={{ fontSize: "2rem" }} /></Link>
+                
               </div>
             </div>
           </motion.div>
