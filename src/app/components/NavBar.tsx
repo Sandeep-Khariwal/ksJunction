@@ -21,8 +21,8 @@ const NavBar = () => {
             <Image
               src="/logo.png"
               alt="Description of image"
-              width={80}
-              height={80}
+              width={200}
+              height={100}
             />
           </div>
           <div className="w-[30%] m-auto flex justify-between items-center">
@@ -61,22 +61,22 @@ const NavBar = () => {
         </div>
       </div>
       <div className="lg:hidden w-full text-black">
-        <div className="w-full py-4 px-8 flex justify-between items-center  ">
+        <div className="w-full py-4  flex justify-between items-center  ">
           <Image
             src="/logo.png"
             alt="Description of image"
-            width={80}
-            height={80}
+            width={150}
+            height={100}
           />
           {open ? (
             <MdClose
               onClick={() => setOpen(!open)}
-              style={{ fontSize: "2rem", marginTop: "-0.5rem" }}
+              style={{ fontSize: "2rem", marginTop: "-0.5rem", marginRight:"2rem" }}
             />
           ) : (
             <FaBarsStaggered
               onClick={() => setOpen(!open)}
-              style={{ fontSize: "1.5rem" }}
+              style={{ fontSize: "1.5rem", marginRight:"2rem" }}
             />
           )}
         </div>
@@ -94,7 +94,7 @@ const NavBar = () => {
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 1 }}
                   href="#home"
-                  className="font-semibold font-OpenSans transition duration-300 transform hover:scale-105 hover:text-purple-500"
+                  className="font-semibold text-lg font-OpenSans transition duration-300 transform hover:scale-105 hover:text-purple-500"
                 >
                   Home
                 </motion.a>
@@ -103,7 +103,7 @@ const NavBar = () => {
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 1.5 }}
                   href="#about"
-                  className="font-semibold font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
+                  className="font-semibold text-lg font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
                 >
                   About
                 </motion.a>
@@ -112,7 +112,7 @@ const NavBar = () => {
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 2 }}
                   href="#services"
-                  className="font-semibold font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
+                  className="font-semibold text-lg font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
                 >
                   Services
                 </motion.a>
@@ -121,7 +121,7 @@ const NavBar = () => {
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 2.5 }}
                   href="#course"
-                  className="font-semibold font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
+                  className="font-semibold text-lg font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
                 >
                   Courses
                 </motion.a>

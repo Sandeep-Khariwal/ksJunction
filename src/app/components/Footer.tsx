@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           {/* Logo and Description */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h2 className="text-3xl font-bold">Khariwal software junction</h2>
-            <p className="text-gray-400 mt-4 text-xl">
-              Building quality websites and mobile apps <br/> to help your business thrive online and <br/>reach more customers.
+            <h2 className="text-2xl font-bold">Khariwal software junction</h2>
+            <p className="text-gray-400 mt-4 text-lg">
+              Building quality websites and mobile apps <br className="hidden lg:block " /> to help your business thrive online and <br className="hidden lg:block " />reach more customers.
             </p>
           </div>
 
@@ -20,19 +20,19 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
             <ul>
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white text-xl">Home
+                <Link href="/" className="text-gray-400 hover:text-white text-lg">Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-400 hover:text-white text-xl">About Us
+                <Link href="/about" className="text-gray-400 hover:text-white text-lg">About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-400 hover:text-white text-xl">Services
+                <Link href="/services" className="text-gray-400 hover:text-white text-lg">Services
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white text-xl">Contact
+                <Link href="/contact" className="text-gray-400 hover:text-white text-lg">Contact
                 </Link>
               </li>
             </ul>
@@ -41,10 +41,10 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="w-full md:w-1/3">
             <h3 className="text-2xl font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-400 text-xl ">Khariwal software junction</p>
-            <p className="text-gray-400 text-xl">Sirsa, Haryana, ITI chowk, 125055</p>
-            <p className="text-gray-400 text-xl">Email: sandeepkhariwal01@gmail.com</p>
-            <p className="text-gray-400 text-xl">Phone: (+91) - 9416059799</p>
+            <p className="text-gray-400 text-lg ">Khariwal software junction</p>
+            <p className="text-gray-400 text-lg">Sirsa, Haryana, ITI chowk, 125055</p>
+            <p className="text-gray-400 text-lg">Email: sandeepkhariwal01@gmail.com</p>
+            <p className="text-gray-400 text-lg">Phone: (+91) - 9416059799</p>
           </div>
         </div>
 
