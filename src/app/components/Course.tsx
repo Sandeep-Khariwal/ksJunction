@@ -13,7 +13,7 @@ const Course = () => {
         initial={{ y: "20%", opacity: 1 }}
         whileInView={{ y: "0%", opacity: 1 }}
         transition={{ duration: 1 }}
-        className="font-semibold text-black flex text-2xl lg:text-5xl leading-tight justify-center items-center "
+        className="font-semibold text-black flex text-3xl lg:text-5xl leading-tight justify-center items-center "
       >
         About our{" "}
         <div className="text-[#6a5cff] ml-2 inline">

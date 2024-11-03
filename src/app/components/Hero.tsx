@@ -15,7 +15,7 @@ const HeroSection = () => {
               initial={{ y: "20%", opacity: 1 }}
               whileInView={{ y: "0%", opacity: 1 }}
               transition={{ duration: 1 }}
-              className="font-semibold text-black text-2xl text-center lg:text-start lg:text-5xl leading-tight "
+              className="font-semibold text-black text-3xl text-center lg:text-start lg:text-5xl leading-tight "
             >
               Unlock the Power of Full Stack 
               web Development
@@ -37,7 +37,7 @@ const HeroSection = () => {
               initial={{ y: "40%", opacity: 1 }}
               whileInView={{ y: "0%", opacity: 1 }}
               transition={{ duration: 2 }}
-              className="mt-8 text-md text-center lg:text-start lg:text-2xl font-poppins text-gray-500 "
+              className="mt-8 text-lg text-center lg:text-start lg:text-2xl font-poppins text-gray-500 "
             >
               Gain hands-on experience with real-world projects, 
               learn industry-leading technologies,  and become a job-ready 

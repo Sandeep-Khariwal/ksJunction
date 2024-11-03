@@ -27,7 +27,7 @@ const Card = (data:{
     initial={{ y: "20%", opacity: 1 }}
     whileInView={{ y: "0%", opacity: 1 }}
     transition={{ duration: 1 }}
-    className=" w-full lg:w-1/4 m-2 p-2 shadow-lg bg-[#fff] rounded-2xl ">
+    className=" w-full lg:w-1/4 m-4 p-2 shadow-lg bg-[#fff] rounded-2xl ">
       <motion.svg
         width="200"
         viewBox="-15 -15 230 230"
@@ -71,10 +71,10 @@ const Card = (data:{
         </foreignObject>
       </motion.svg>
 
-      <p className="font-semibold text-black m-2 text-xl leading-tight text-center ">
+      <p className="font-semibold text-black m-2 text-2xl leading-tight text-center ">
         {data.tittle}
       </p>
-      <p   className="mt-3 text-md m-2 font-poppins text-gray-500 text-center ">
+      <p   className="mt-3 text-lg m-2 font-poppins text-gray-500 text-center ">
       {
         data.desc
       }
