@@ -24,7 +24,7 @@ const Card = (data:{
 }) => {
   return (
     <motion.div
-    initial={{ y: "20%", opacity: 1 }}
+    initial={{ y: "10%", opacity: 1 }}
     whileInView={{ y: "0%", opacity: 1 }}
     transition={{ duration: 1 }}
     className=" w-full lg:w-1/4 m-4 p-2 shadow-lg bg-[#fff] rounded-2xl ">

@@ -88,7 +88,7 @@ const About = () => {
           </div>
         </div>
         <motion.div
-          initial={{ y: "40%", opacity: 1 }}
+          initial={{ y: "20%", opacity: 1 }}
           whileInView={{ y: "0%", opacity: 1 }}
           transition={{ duration: 2 }}
           className=" w-full lg:w-1/2 p-7 lg:p-10 text-lg lg:text-2xl font-poppins text-gray-500 flex items-start"

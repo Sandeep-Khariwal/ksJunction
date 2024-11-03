@@ -15,8 +15,8 @@ const NavBar = () => {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <>
-      <div className="hidden text-black lg:block w-[80%]">
-        <div className="w-full m-auto p-6 flex justify-between items-center ">
+      <div className="hidden text-black lg:block w-[80%] lg:w-full ">
+        <div className="w-full mx-auto p-6 flex justify-between items-center ">
           <div className="w-[20%] ">
             <Image
               src="/logo.png"
@@ -65,7 +65,7 @@ const NavBar = () => {
           <Image
             src="/logo.png"
             alt="Description of image"
-            width={150}
+            width={180}
             height={100}
           />
           {open ? (
