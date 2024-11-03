@@ -15,7 +15,7 @@ const HeroSection = () => {
               initial={{ y: "20%", opacity: 1 }}
               whileInView={{ y: "0%", opacity: 1 }}
               transition={{ duration: 1 }}
-              className="font-semibold text-2xl text-center lg:text-start lg:text-5xl leading-tight "
+              className="font-semibold text-black text-2xl text-center lg:text-start lg:text-5xl leading-tight "
             >
               Unlock the Power of Full Stack 
               web Development

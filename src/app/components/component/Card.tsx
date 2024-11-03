@@ -71,7 +71,7 @@ const Card = (data:{
         </foreignObject>
       </motion.svg>
 
-      <p className="font-semibold m-2 text-xl leading-tight text-center ">
+      <p className="font-semibold text-black m-2 text-xl leading-tight text-center ">
         {data.tittle}
       </p>
       <p   className="mt-3 text-md m-2 font-poppins text-gray-500 text-center ">
