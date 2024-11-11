@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default:"KSJunction | software development institute",
+    default:"KS Junction | software development institute",
     template:"%s"
   },
   description:"khariwal software junction is a institute where we make student skillful in software development. KSJunction is also part of agency where we provide services of softwares, create dynamic websites",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     icon: [
       {
         rel: "icon",
-        url: "/logo.png",
+        url: "/favicon.png",
       },
       {
         rel: "apple-touch-icon",
