@@ -7,7 +7,7 @@ export interface ServiceType {
  const Service:ServiceType[] = [
     {
         image:"/business.jpg",
-        tittle:"Provide application for all buseness",
+        tittle:"Provide application for all business",
         desc:"Create applications to fit any business need. Make daily tasks easier, improve productivity, and help your business grow with solutions tailored to support every area of your operations."
     },
     {
@@ -17,7 +17,7 @@ export interface ServiceType {
     },
     {
         image:"/bothapp.webp",
-        tittle:"We provide both webiste and mobile app",
+        tittle:"We provide both website and mobile app",
         desc:"We provide both websites and mobile apps to help your business reach more customers. Our solutions are user-friendly, customized, and built to support your growth on all platforms."
     },
 ]

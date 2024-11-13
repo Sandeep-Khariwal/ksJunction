@@ -91,6 +91,7 @@ const NavBar = () => {
               <div className="w-full gap-10 mt-10 flex flex-col justify-start items-center ">
                 <motion.a
                   initial={{ x: "50%", opacity: 1 }}
+                  onClick={() => setOpen(!open)}
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 1 }}
                   href="#home"
@@ -100,6 +101,7 @@ const NavBar = () => {
                 </motion.a>
                 <motion.a
                   initial={{ x: "50%", opacity: 1 }}
+                  onClick={() => setOpen(!open)}
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 1.5 }}
                   href="#about"
@@ -111,6 +113,7 @@ const NavBar = () => {
                   initial={{ x: "50%", opacity: 1 }}
                   whileInView={{ x: "0%", opacity: 1 }}
                   transition={{ duration: 2 }}
+                  onClick={() => setOpen(!open)}
                   href="#services"
                   className="font-semibold text-lg font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
                 >
@@ -119,6 +122,7 @@ const NavBar = () => {
                 <motion.a
                   initial={{ x: "50%", opacity: 1 }}
                   whileInView={{ x: "0%", opacity: 1 }}
+                  onClick={() => setOpen(!open)}
                   transition={{ duration: 2.5 }}
                   href="#course"
                   className="font-semibold text-lg font-OpenSans transition duration-300 ease-in-out transform hover:scale-105 hover:text-purple-500"
