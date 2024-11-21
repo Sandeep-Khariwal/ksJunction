@@ -42,7 +42,7 @@ const Footer = () => {
           <div className="w-full md:w-1/3">
             <h3 className="text-2xl font-semibold mb-4">Contact Us</h3>
             <p className="text-gray-400 text-md ">Khariwal software junction</p>
-            <p className="text-gray-400 text-md">Sirsa, Haryana, ITI chowk, 125055</p>
+            <p className="text-gray-400 text-md">Subhash colony, Near town park huda complex, opposite The sirsa school,Sirsa, Haryana, 125055</p>
             <p className="text-gray-400 text-md">Email: sandeepkhariwal01@gmail.com</p>
             <p className="text-gray-400 text-md">Phone: (+91) - 9416059799</p>
           </div>
