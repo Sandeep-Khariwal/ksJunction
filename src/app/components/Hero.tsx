@@ -44,8 +44,8 @@ const HeroSection = () => {
               Full Stack Developer in just a few months!
             </motion.div>
             <div className="w-full flex justify-center items-center mt-10 ">
-              <a href="https://wa.me/+919416059799" className="bg-gradient-to-r from-indigo-600 to-purple-500 text-white font-medium py-2 px-6 rounded-lg hover:scale-105 transform transition duration-200">
-                Contact now
+              <a href="tel:+919416059799" className="bg-gradient-to-r from-indigo-600 to-purple-500 text-white font-medium py-2 px-6 rounded-lg hover:scale-105 transform transition duration-200">
+                call now
               </a>
             </div>
           </div>
