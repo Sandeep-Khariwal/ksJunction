@@ -1,5 +1,4 @@
 import Link from "next/link";
-import MapLocation from "./MapLocation";
 
 const Footer = () => {
   return (
