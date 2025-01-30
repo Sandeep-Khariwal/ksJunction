@@ -4,6 +4,7 @@ export interface CourseType {
   desc: string;
   duration?: string;
   fees?: string;
+  tech?:string[]
 }
 
 const Course: CourseType[] = [
@@ -13,6 +14,7 @@ const Course: CourseType[] = [
     desc: "Learn to build full-stack web applications with the MERN stack (MongoDB, Express, React, Node.js). Master front-end and back-end development, REST APIs, authentication, and deployment in this practical course.",
     duration: "1 year",
     fees: "3k/month",
+    tech:[""]
   },
   {
     image: "/appDev.png",
@@ -20,6 +22,7 @@ const Course: CourseType[] = [
     desc: "Learn to develop mobile applications using modern frameworks like React Native. Build cross-platform apps for iOS and Android with features like navigation, state management, and API integration.",
     duration: "1 year",
     fees: "4k/month",
+    tech:[""]
   },
   {
     image: "/ai.jpg",
@@ -27,6 +30,7 @@ const Course: CourseType[] = [
     desc: "Learn Artificial Intelligence (AI) and Machine Learning (ML) through comprehensive online courses. Master algorithms, data analysis, deep learning, and practical applications to build intelligent systems and predictive models.",
     duration: "1 year",
     fees: "4k/month",
+    tech:[""]
   },
   {
     image: "/ds.jpg",
@@ -34,6 +38,7 @@ const Course: CourseType[] = [
     desc: "Master Data Science with online courses. Learn data analysis, visualization, statistics, machine learning, and data-driven decision making using Python, R, and powerful tools like Pandas and TensorFlow.",
     duration: "1 year",
     fees: "4k/month",
+    tech:[""]
   },
   {
     image: "/app.webp",
@@ -41,6 +46,7 @@ const Course: CourseType[] = [
     desc: "Master essential computer skills with online courses. Learn to use Notepad, Microsoft Word, Excel, MS Office, and typing skills for efficient work and productivity. Perfect for beginners and professionals.",
     duration: "3 - 4 months",
     fees: "1.5k/month",
+    tech:[""]
   },
   {
     image: "/tools.webp",

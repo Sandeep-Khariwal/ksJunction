@@ -100,7 +100,7 @@ const Card = (data: {
           href="tel:+919416059799"
           className="bg-gradient-to-r from-indigo-600 to-purple-500 text-white font-medium py-2 px-6 rounded-lg hover:scale-105 transform transition duration-200"
         >
-          Call now
+          Read more
         </a>
       </div>
     </motion.div>

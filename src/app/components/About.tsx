@@ -98,8 +98,8 @@ const About = () => {
           graduated from delhi university with software development
           spacification <br />
           I am working in software industry from last 2 years, and help organization to build a complex design and sacalable application.
-          i have great knowledge about the industry work flow. <br/>
-          also i have built my own software projects and now providing services as a freelancer
+          I have great knowledge about the industry work flow. <br/>
+          also I have built my own software projects and now providing services as a freelancer
         </motion.div>
       </div>
     </div>

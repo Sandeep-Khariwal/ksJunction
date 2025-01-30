@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <div id="home" className=" w-[95%] lg:w-[80%]  m-auto mt-5 lg:mt-24 ">
+      <div id="home" className="w-[95%] lg:w-[80%] m-auto mt-5 lg:mt-24 ">
         <div className="w-full flex flex-col-reverse lg:flex-row ">
           <div className="w-full lg:w-[50%]  ">
             <motion.div
