@@ -27,7 +27,7 @@ const Services = () => {
       <div className="w-full flex justify-between items-center flex-wrap mt-10 ">
        {
         Service && Service.map((c:ServiceType,i:number)=>(
-            <Card key={i} image={c.image} tittle={c.tittle} desc={c.desc} />
+            <Card key={i} id={c.id} image={c.image} tittle={c.tittle} desc={c.desc} />
         ))
        }
       </div>

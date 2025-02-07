@@ -29,7 +29,7 @@ const Course = () => {
       <div className="w-full flex justify-between items-center flex-wrap mt-10">
       {course &&
           (seeMore ? course : course.slice(0, 3)).map((c:CourseType, index) => (
-            <Card key={index} image={c.image} tittle={c.tittle} desc={c.desc} duration={c.duration} fees={c.fees} />
+            <Card key={index} id={c.id} image={c.image} tittle={c.tittle} desc={c.desc} duration={c.duration} fees={c.fees} />
           ))}
 
       </div>

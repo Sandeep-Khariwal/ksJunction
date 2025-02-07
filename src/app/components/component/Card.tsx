@@ -1,6 +1,7 @@
-
+"use client"
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const draw = {
   hidden: { pathLength: 0, opacity: 0 },
@@ -18,12 +19,14 @@ const draw = {
 };
 
 const Card = (data: {
+  id:number;
   image: string;
   tittle: string;
   desc: string;
   duration?: string;
   fees?: string;
 }) => {
+  const navigation = useRouter()
   return (
     <motion.div
       initial={{ y: "10%", opacity: 1 }}
@@ -96,12 +99,13 @@ const Card = (data: {
         {data.desc}
       </p>
       <div className="w-full flex justify-center items-center mt-10 ">
-        <a
-          href="tel:+919416059799"
+        <button
+        onClick={()=>navigation.push(`/details/${data.id}`)}
+          
           className="bg-gradient-to-r from-indigo-600 to-purple-500 text-white font-medium py-2 px-6 rounded-lg hover:scale-105 transform transition duration-200"
         >
           Read more
-        </a>
+        </button>
       </div>
     </motion.div>
   );
