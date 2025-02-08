@@ -19,9 +19,9 @@ export default function Page() {
   return (
     <>
       <div
-
         className="course-content bg-white "
-        dangerouslySetInnerHTML={{ __html: course?.data!! }}
+        dangerouslySetInnerHTML={{ __html: course?.data || ""
+         }}
       />
     </>
   );
